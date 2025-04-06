@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(88, 88, 173);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+}

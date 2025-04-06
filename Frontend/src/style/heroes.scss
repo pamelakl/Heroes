@@ -1,0 +1,32 @@
+.hero-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hero-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:130px
+}
+
+.hero-image{
+    height: 200px;
+    width: 100%; /* Make the image responsive */
+    max-width: 500px; /* Limit the max width */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.hero-name{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-power{
+    margin: 0px;
+    padding: 0px;
+}

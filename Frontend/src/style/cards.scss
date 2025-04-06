@@ -1,0 +1,23 @@
+.cards-title{
+    font-weight:900;
+    font-size: 90px;
+}
+
+.hero-card-container{
+    padding: 20px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    min-height: 20px; /* Reserves space even when no error is present */
+}
+
+.plus-button:hover{
+    cursor: pointer;
+}

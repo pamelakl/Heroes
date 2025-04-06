@@ -1,0 +1,69 @@
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Make sure the form is centered within the container */
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    padding: 20px;
+}
+
+/* Adjust input fields width and margin */
+.form-input {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit button styles */
+.submit-form-button {
+    background-color: #664caf;
+    color: white;
+    padding: 12px 30px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-form-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Button for switching between SignUp and LogIn */
+.form-button {
+    border: none;
+    color: rgb(206, 131, 221);
+    padding: 12px 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
